@@ -1,4 +1,4 @@
-# tygoja — AI Assistant Context
+# tygoja
 
 (EXP) tygoja
 [![GoDoc](https://godoc.org/github.com/pocketbase/tygoja?status.svg)](https://pkg.go.dev/github.com/pocketbase/tygoja)
