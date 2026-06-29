@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="tygoja" width="880"></p>
+
 (EXP) tygoja
 [![GoDoc](https://godoc.org/github.com/pocketbase/tygoja?status.svg)](https://pkg.go.dev/github.com/pocketbase/tygoja)
 ======================================================================
