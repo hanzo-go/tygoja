@@ -1,4 +1,4 @@
-module github.com/hanzoai/tygoja
+module hanzo.ai/tygoja
 
 go 1.26.5
 
