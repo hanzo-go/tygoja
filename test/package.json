@@ -3,6 +3,6 @@
     "generate": "npx typedoc"
   },
   "devDependencies": {
-    "typedoc": "^0.24.8"
+    "typedoc": "^0.28.20"
   }
 }
