@@ -1,7 +1,7 @@
 <p align="center"><img src=".github/hero.svg" alt="tygoja" width="880"></p>
 
 (EXP) tygoja
-[![GoDoc](https://godoc.org/github.com/pocketbase/tygoja?status.svg)](https://pkg.go.dev/github.com/pocketbase/tygoja)
+[![GoDoc](https://pkg.go.dev/badge/hanzo.ai/tygoja.svg)](https://pkg.go.dev/hanzo.ai/tygoja)
 ======================================================================
 
 **tygoja** is a small helper library for generating TypeScript declarations from Go code.
@@ -10,7 +10,7 @@ The generated typings are intended to be used as import helpers to provide [ambi
 
 > **⚠️ Don't use it directly in production! It is not tagged and may change without notice.**
 >
-> **It was created to semi-automate the documentation of the goja integration for PocketBase.**
+> **It was created to semi-automate the documentation of the goja integration for Hanzo Base.**
 >
 > **Use it only as a reference or as a non-critical step in your dev pipeline.**
 
@@ -42,15 +42,15 @@ import (
     "log"
     "os"
 
-    "github.com/pocketbase/tygoja"
+    "hanzo.ai/tygoja"
 )
 
 func main() {
     gen := tygoja.New(tygoja.Config{
         Packages: map[string][]string{
-            "github.com/pocketbase/tygoja/test/a": {"*"},
-            "github.com/pocketbase/tygoja/test/b": {"*"},
-            "github.com/pocketbase/tygoja/test/c": {"Example2", "Handler"},
+            "hanzo.ai/tygoja/test/a": {"*"},
+            "hanzo.ai/tygoja/test/b": {"*"},
+            "hanzo.ai/tygoja/test/c": {"Example2", "Handler"},
         },
         Heading:              `declare var $app: c.Handler; // bind other fields `,
         WithPackageFunctions: true,
@@ -71,7 +71,7 @@ You can also combine it with [typedoc](https://typedoc.org/) to create HTML/JSON
 
 See the package `/test` directory for example output.
 
-For a more detailed example you can also explore the [PocketBase's jsvm plugin](https://github.com/pocketbase/pocketbase/tree/develop/plugins/jsvm/internal/docs).
+For a more detailed example you can also explore the [Hanzo Base jsvm plugin](https://github.com/hanzoai/base/tree/main/plugins/jsvm/internal/types).
 
 
 ## Known issues and limitations
